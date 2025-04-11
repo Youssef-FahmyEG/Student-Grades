@@ -647,7 +647,7 @@ with tab4:
     fig = px.imshow(
     numerical_data, 
     title="Correlation Matrix of Numerical Data",
-    text_auto=True  
+    text_auto=True
 )
 
     fig.update_traces(
@@ -666,7 +666,9 @@ with tab4:
     title_xanchor="center", 
     xaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
     yaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
-    plot_bgcolor="white"
+    plot_bgcolor="white",
+    width=900,
+    height=500
 )
 
     st.plotly_chart(fig)
