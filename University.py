@@ -667,8 +667,8 @@ with tab4:
     xaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
     yaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
     plot_bgcolor="white",
-    width=900,
-    height=500
+    width=800,
+    height=600
 )
 
     st.plotly_chart(fig)
