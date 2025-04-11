@@ -667,7 +667,7 @@ with tab4:
     xaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
     yaxis=dict(title="Features", tickfont=dict(size=12, family="Arial", color="black")),
     plot_bgcolor="white",
-    width=800,
+    width=900,
     height=600
 )
 
