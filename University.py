@@ -6,9 +6,9 @@ import statsmodels
 
 st.set_page_config(layout="wide", page_title="📊 University Dashboard")
 
-df = pd.read_csv("https://raw.githubusercontent.com/Youssef-FahmyEG/Student-Grades/main/content/Students_Grading_Cleaned.csv")
+df = pd.read_csv("Students_Grading_Cleaned.csv")
 
-st.sidebar.image("https://raw.githubusercontent.com/Youssef-FahmyEG/Student-Grades/main/content/Logo.png")
+st.sidebar.image("Logo.png")
 
 
 gender = st.sidebar.selectbox("Gender", df["gender"].unique())
